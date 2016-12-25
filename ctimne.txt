@@ -1,0 +1,14 @@
+Soubor stepan.sql si naimportuj do vlastní MySQl databáze (https://www.youtube.com/watch?v=132L67wTxDU), soubor odsud poté smaž
+Uprav soubor admin/db.inc aby souhlasil s nastavením tvé databáze (server, login, heslo, DB)
+Administrace je dostupná na /admin, login: admin/admin. Lze změnit v souboru admin/login.php
+Doporučuju si všechny kódy projít ať víš co který dělá a co tam je, oedituj si soubor contact.php aby to bylo "tvoje"
+
+
+Otázky od Jeníčkový:
+SQL insert je v sobouru new.php kde přidáváš nové zboží
+SQL update je v souboru edit.php kde edituješ stávající zboží
+SQL delete je v souboru delete.php kde mažeš zboží
+Javascript je na stránce s přehledem zboží a to pokud klikneš na vymazat, bude to od tebe chtít potvrzení
+SQL vazba N:N zde bohužel není, ale je tu 1:N a to jsou tagy, tzn. jedno zboží může mít více tagů
+
+Tenhle soubor odsud poté smaž!
